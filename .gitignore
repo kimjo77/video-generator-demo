@@ -1,0 +1,36 @@
+# Dependencies (all npm workspaces)
+node_modules/
+
+# Build output and tool caches
+dist/
+.vite/
+.cache/
+.eslintcache
+*.tsbuildinfo
+
+# Local credentials; keep the safe configuration template
+.env
+.env.*
+!.env.example
+
+# Generated videos, narration, downloaded photos, and provider cache
+/output/
+
+# Temporary files and logs
+/tmp/
+/temp/
+*.log
+*.pid
+*.pid.lock
+
+# Local editor and operating-system files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Keep package-lock.json, source, documentation, and design references tracked.
